@@ -10,16 +10,7 @@ import os.path
 import rfc822
 import time
 import logging
-from six.moves.urllib.parse import urlparse
-from collections import defaultdict
-import six
-
-try:
-    from cStringIO import StringIO as BytesIO
-except ImportError:
-    from io import BytesIO
-
-from twisted.internet import defer, threads
+from six.movefer, threads
 
 from scrapy.pipelines.media import MediaPipeline
 from scrapy.exceptions import NotConfigured, IgnoreRequest
